@@ -17,7 +17,7 @@ function App() {
         <nav>
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link" to="/projects">Projects</Link>
-          <Link className="nav-link" to="/aboutme">About Me</Link>
+          <Link className="nav-link" to="/about">About</Link>
         </nav>
 
                 {/* A <Switch> looks through its children <Route>s and
@@ -29,7 +29,7 @@ function App() {
               <Route exact path="/projects">
                 <Projects />
               </Route>
-              <Route exact path="/aboutme">
+              <Route exact path="/about">
                 <AboutMe />
               </Route>
             </Switch>
