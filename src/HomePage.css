@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.niki-logo1 {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 2em;
+    left: .9em;
+    font-size: 7em;
+    margin-bottom: 0em;
+    color: hotpink;
+}
+
+.niki-logo2 {
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 3em;
+    left: 1.1em;
+    font-size: 7em;
+    margin-top: .79em;
+    color: hotpink;
+}
+
+.hello-friends {
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    top: 4em;
+    left: 4.5em;
+}
