@@ -10,6 +10,10 @@
     color: hotpink;
 }
 
+.niki-logo1:hover {
+    color: rgb(255, 0, 128);
+}
+
 .niki-logo2 {
     font-family: 'Oswald', sans-serif;
     position: absolute;
@@ -17,6 +21,10 @@
     right: 62vw;
     font-size: 13vw;
     color: hotpink;
+}
+
+.niki-logo2:hover {
+    color: rgb(255, 0, 128);
 }
 
 .hello-friends {

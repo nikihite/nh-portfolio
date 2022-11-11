@@ -7,7 +7,7 @@ export default function Projects() {
         <h1>Lunar Lounge</h1>
         <h2>React, Supabase, Node, Netlify</h2>
         <p>A real-time chat app that utilizes Supabase tables and an astrology-based API to encourage users to learn more about themselves and connect with each other.</p>
-        <img className="proj-pic"src="../lunarlounge-screenshot.png" />
+        <img className="proj-pic" src="../lunarlounge-screenshot.png" />
       </div>
       <div>
         <h1>Allegori</h1>
@@ -18,7 +18,7 @@ export default function Projects() {
         <h1>Pixie.js</h1>
         <h2>JS, Node, Express, PostgreSQL, Heroku</h2>
         <p>A tarot-based API celebrating the artwork of Pamela Colman Smith, allowing users to pick, track and update their pulls from the symbolic Rider-Waite Smith deck.</p>
-        <img src="../99321BCC-8ABF-43D7-9CA2-5EB2F3A9CA0E_1_102_o.jpeg" />
+        <img className="proj-pic" src="../99321BCC-8ABF-43D7-9CA2-5EB2F3A9CA0E_1_102_o.jpeg" />
       </div>
       <div>
         <h1>HYNT</h1>
