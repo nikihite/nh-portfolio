@@ -7,6 +7,7 @@ export default function HomePage() {
       <h2 className='i-am'>I&#39;m</h2>
       <h2 className='niki-logo1'>NIKI</h2>
       <h2 className='niki-logo2'>HITE</h2>
+      <p className='about'>I am a Full-Stack Software Engineer <br/> located in Vancouver, WA.</p>
     </div>
   );
 }

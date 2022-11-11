@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Sono:wght@300&display=swap');
 
 .niki-logo1 {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     position: absolute;
-    top: 20vw;
-    font-size: 12vw;
+    top: 14vw;
+    right: 68vw;
+    font-size: 13vw;
     color: hotpink;
 }
 
 .niki-logo2 {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     position: absolute;
-    top: 32vw;
-    font-size: 12vw;
+    top: 25vw;
+    right: 62vw;
+    font-size: 13vw;
     color: hotpink;
 }
 
@@ -26,6 +28,16 @@
 .i-am {
     font-family: 'Space Mono', monospace;
     position: absolute;
-    font-size: 3vw;
-    top: 24vw;
+    font-size: 2.5vw;
+    top: 23.5vw;
+    right: 90vw;
+}
+
+.about {
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 900;
+    top: 30vw;
+    left: 48vw;
 }
