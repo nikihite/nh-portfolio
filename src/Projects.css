@@ -10,11 +10,19 @@ margin-bottom: 10vw;
 width: 40vw;
 }
 
+.lunar-lounge:hover {
+    -webkit-box-shadow: 0px 0px 35px 5px rgb(167, 56, 167);
+}
+
 .allegori {
     -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
 box-shadow: 0px 0px 35px 5px #ffffff;
 margin-bottom: 10vw;
 width: 40vw;
+}
+
+.allegori:hover {
+    -webkit-box-shadow: 0px 0px 35px 5px rgb(94, 94, 255);
 }
 
 .pixie {
@@ -24,11 +32,19 @@ margin-bottom: 10vw;
 width: 40vw;
 }
 
+.pixie:hover {
+    -webkit-box-shadow: 0px 0px 35px 5px orange;
+}
+
 .HYNT {
     -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
 box-shadow: 0px 0px 35px 5px #ffffff;
 margin-bottom: 10vw;
 width: 40vw;
+}
+
+.HYNT:hover {
+    -webkit-box-shadow: 0px 0px 35px 5px teal;
 }
 
 h1 {
