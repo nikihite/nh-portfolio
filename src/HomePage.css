@@ -20,9 +20,12 @@
 .hello-friends {
     font-family: 'Space Mono', monospace;
     position: absolute;
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .i-am {
-    
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    font-size: 3vw;
+    top: 24vw;
 }
