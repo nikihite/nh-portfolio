@@ -1,3 +1,28 @@
 .proj-pic {
     width: 55vw;
+    padding: 2vw;
+}
+
+.lunar-lounge {
+    -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
+box-shadow: 0px 0px 35px 5px #ffffff;
+margin-bottom: 10vw;
+}
+
+.allegori {
+    -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
+box-shadow: 0px 0px 35px 5px #ffffff;
+margin-bottom: 10vw;
+}
+
+.pixie {
+    -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
+box-shadow: 0px 0px 35px 5px #ffffff;
+margin-bottom: 10vw;
+}
+
+.HYNT {
+    -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
+box-shadow: 0px 0px 35px 5px #ffffff;
+margin-bottom: 10vw;
 }
