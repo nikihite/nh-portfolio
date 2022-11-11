@@ -4,7 +4,7 @@
 .niki-logo1 {
     font-family: 'Russo One', sans-serif;
     position: absolute;
-    top: 24vw;
+    top: 20vw;
     font-size: 12vw;
     color: hotpink;
 }
@@ -12,7 +12,7 @@
 .niki-logo2 {
     font-family: 'Russo One', sans-serif;
     position: absolute;
-    top: 36vw;
+    top: 32vw;
     font-size: 12vw;
     color: hotpink;
 }
@@ -20,6 +20,9 @@
 .hello-friends {
     font-family: 'Space Mono', monospace;
     position: absolute;
-    top: 4em;
-    left: 4.5em;
+    font-size: 5vw;
+}
+
+.i-am {
+    
 }

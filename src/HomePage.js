@@ -4,8 +4,9 @@ export default function HomePage() {
   return (
     <div className='HomePage'>
       <h1 className='hello-friends'>hello friends,</h1>
-      <h1 className='niki-logo1'>NIKI</h1>
-      <h1 className='niki-logo2'>HITE</h1>
+      <h2 className='i-am'>I&#39;m</h2>
+      <h2 className='niki-logo1'>NIKI</h2>
+      <h2 className='niki-logo2'>HITE</h2>
     </div>
   );
 }
