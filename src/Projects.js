@@ -2,7 +2,7 @@ import './Projects.css';
 
 export default function Projects() {
   return (
-    <>
+    <div className='projects-div'>
       <div className='lunar-lounge'>
         <h1>Lunar Lounge</h1>
         <h2>React, Supabase, Node, Netlify</h2>
@@ -22,9 +22,9 @@ export default function Projects() {
       </div>
       <div className='HYNT'>
         <h1>HYNT</h1>
-        <h2>JS, Node, Netlify, Supabase</h2>
+        <h2>JavaScript, Node, Netlify, Supabase</h2>
         <p>A life or death text adventure game where you decide your own fate.</p>
       </div>
-    </>
+    </div>
   );
 }
