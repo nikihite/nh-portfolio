@@ -8,6 +8,7 @@ import {
 import Projects from './Projects';
 import HomePage from './HomePage';
 import AboutMe from './AboutMe';
+import Contact from './Contact';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link" to="/projects">Projects</Link>
           <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="/contact">Contact</Link>
         </nav>
 
                 {/* A <Switch> looks through its children <Route>s and
@@ -31,6 +33,9 @@ function App() {
               </Route>
               <Route exact path="/about">
                 <AboutMe />
+              </Route>
+              <Route exact path="/contact">
+                <Contact />
               </Route>
             </Switch>
       </div>

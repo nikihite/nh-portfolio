@@ -49,3 +49,20 @@
     top: 30vw;
     left: 48vw;
 }
+
+.contactme-button {
+    position: absolute;
+    font-family: 'Space Mono', monospace;
+    font-size: 2vw;
+    padding: 1vw;
+    width: 20vw;
+    top: 41vw;
+    left: 60vw;
+    border-radius: 50px;
+    background-color: rgb(255, 105, 180);
+    border: 0px;
+}
+
+.contactme-button:hover {
+    background-color: greenyellow;
+}
