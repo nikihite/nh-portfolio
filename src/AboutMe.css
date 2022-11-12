@@ -32,5 +32,23 @@
     right: 5vw;
     -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
     box-shadow: 0px 0px 35px .5px #ffffff;
+}
 
+.languages {
+    font-family: 'Space Mono', monospace;
+    font-size: 2vw;
+    position: absolute;
+    left: 4vw;
+    top: 80vw;
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    margin-bottom: 0;
+    margin: 2vw;
+}
+
+.lan-div {
+    width: 17vw;
 }
