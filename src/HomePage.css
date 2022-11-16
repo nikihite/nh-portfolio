@@ -61,8 +61,10 @@
     border-radius: 50px;
     background-color: rgb(255, 105, 180);
     border: 0px;
+    transition: all .2s ease-in-out; 
 }
 
 .contactme-button:hover {
     background-color: greenyellow;
+    transform: scale(1.1);
 }
