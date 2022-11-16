@@ -32,6 +32,7 @@
 .niki-pic {
     width: 40vw;
     position: absolute;
+    border-radius: 50px;
     top: 20vw;
     right: 5vw;
     -webkit-box-shadow: 0px 0px 35px 5px #ffffff; 
@@ -69,6 +70,10 @@ h3 {
     height: 20vw;
     justify-content: center;
     margin: 2vw;
+}
+
+.lan-div:hover {
+    background-color: white;
 }
 
 ul {
