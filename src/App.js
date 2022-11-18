@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+/* eslint-disable indent */
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from 'react-router-dom';
+import Projects from './Projects';
+import HomePage from './HomePage';
+import AboutMe from './AboutMe';
+import Contact from './Contact';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <nav>
+          <Link className="nav-link" to="/">Home</Link>
+          <Link className="nav-link" to="/projects">Projects</Link>
+          <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="/contact">Contact</Link>
+        </nav>
+
+                {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+            <Switch>
+              <Route exact path="/">
+                <HomePage />
+              </Route>
+              <Route exact path="/projects">
+                <Projects />
+              </Route>
+              <Route exact path="/about">
+                <AboutMe />
+              </Route>
+              <Route exact path="/contact">
+                <Contact />
+              </Route>
+            </Switch>
+      </div>
+    </Router>
   );
 }
 
