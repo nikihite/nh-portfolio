@@ -1,8 +1,8 @@
 {
-  "homepage": "https://nikihite.github.io/nikihite",
+  "homepage": "https://nikihite.github.io/",
   "name": "react-base-template",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@supabase/supabase-js": "^1.28.5",
     "@testing-library/jest-dom": "^5.16.4",
